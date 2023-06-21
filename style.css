@@ -1,0 +1,248 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 1230px){
+    .navBar ul{
+        background-color: #EFAAC4;
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        gap: 30px;
+    }
+    .navBar i {
+        display: block;
+    }
+    .navBar a {
+        font-size: 18px;
+    }
+    .menuContainer{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+     
+    
+}
+    
+    @media (max-width: 500px){
+        .img-1 .img-2{
+            max-width: 250px;
+            width: 100%;
+        }
+        .studioGroup{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        iframe{
+            max-width: 300px;
+            width: 100%;
+            padding: 10px;
+        }
+        .container{
+            max-width: 550px;
+            width: 100%;
+            
+        }
+        
+    }
+@media(min-width:350px){
+    .body{
+        width: 50%;
+    }
+
+}
+
+.menuContainer{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.menuIcono{
+    width: 250px;
+    position: relative;
+    display: flex;
+    float: left;
+    padding: 20px;
+
+}
+.menuContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menuContainer .navBar ul li{
+    position: relative;
+    float: left;
+}
+.menuContainer .navBar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: grey;
+    display: block;
+    font-weight: 400;
+}
+.menuContainer .navBar ul li a:hover{
+    color: blueviolet;
+}
+
+.img-1{
+    width: 1660px;
+}
+.img-2{
+    width: 1660px;
+}
+.studio-img{
+    margin-top: 150px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+.headerContentContainer{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.brutal{
+    font-size: 100px;  
+    color: beige;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.text-brutal{
+    
+    color: beige;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.btn-1-informacion{
+    margin-top: 30px;
+}
+.btn-1{
+    
+    color: beige;
+    background-color: black;
+    border-radius: 10%;
+    padding: 12px;
+}
+.btn-1:hover{
+    color: blueviolet;
+    background-color: beige;
+    font-weight: bold;
+}
+.general-content{
+ 
+    text-align: center;
+    background-color: gainsboro;
+    width: auto;
+    height: 200px;
+}
+.general-1{
+   padding: 50px;
+}
+.studioContentContainer{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.img-servicies{
+    width: 150px;
+}
+.content-servicies{
+    font-size: 20px;  
+    padding: 80px;
+    
+    }
+.studioGroup{
+    width: 200px;
+    
+    
+
+}
+.footer{
+    background-color: black;
+   
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 5px;
+}
+.link{
+    color: beige;
+}
+.h3-tittle{
+    color: beige;
+}
+.link-redes{
+    color: blueviolet;
+    padding-bottom: 50px;
+
+}
+.link-redes:hover{
+ color: aliceblue;
+}
+
+.form-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+ input,
+    textarea {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+  }
+
+  label {
+    line-height: 1.9rem;
+  }
+
+  input[type="submit"] {
+   transform: translate(2.2%);
+   padding: 3px;
+   margin-top: 0.6rem;
+
+  }
+
+ fieldset {
+   padding: 20px 40px;
+ }
+ .submit-btn{
+   background-color: blueviolet;
+   color: beige;
+
+ }
